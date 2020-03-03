@@ -1,0 +1,73 @@
+Create Table Transaction
+( Transaction_id VARCHAR(25),
+  Check_out_1	VARCHAR(25),
+  Check_out_2	VARCHAR(25),
+  Check_out_3	VARCHAR(25),
+  Return_1	VARCHAR(25),
+  Return_2	VARCHAR(25),
+  Return_3	VARCHAR(25))
+
+Create Table Customer
+( Name			VARCHAR(25),
+  Membership_date	date(25),
+  email_address		VARCHAR(25),
+  account_number	VARCHAR(25),
+  phone_number		VARCHAR(10),
+  address		VARCHAR(25),
+  zip			CHAR(5),
+  DOB			VARCHAR(8),
+  tool_1		VARCHAR(25),
+  tool_2		VARCHAR(25),
+  tool_3		VARCHAR(25))
+
+Create Table Tools
+( Rental_fee		VARCHAR(25),
+  Insurance		date(25),
+  power_system		VARCHAR(25),
+  area_of_use		VARCHAR(25),
+  supplier		VARCHAR(10),
+  tool_1		VARCHAR(25),
+  tool_2		VARCHAR(25),
+  tool_3		VARCHAR(25))
+
+Create Table Employee
+( Name			VARCHAR(25),
+  SSN			date(25),
+  Employee		VARCHAR(25),
+  email_address		VARCHAR(25),
+  phone_number		VARCHAR(10),
+  address		VARCHAR(25),
+  zip			VARCHAR(25),
+  DOB			VARCHAR(25),
+  Start_Date		DATE(25),
+  Position		VARCHAR(25),
+  Salary		VARCHAR(25))
+
+Create Table Purchase Order
+( Purcahse_Order_ID	VARCHAR(25),
+  Purcahse_Order_Date	DATE(25))
+
+
+Create Table Invoice
+( Invoice_ID	VARCHAR(25),
+  Invoice_Date	DATE(25))
+
+Create Table Supplier
+( Supplier_1	VARCHAR(25),
+  Supplier_2	VARCHAR(25),
+  Supplier_3	DATE(25))
+
+Create Table Manufacturer
+( Bosch			VARCHAR(25),
+  Craftsman		VARCHAR(25),
+  DeWalt		VARCHAR(25),
+  Dremel		VARCHAR(25),
+  Kobalt		VARCHAR(10),
+  Makita		VARCHAR(25),
+  Milwaukee		VARCHAR(25),
+  PorterCable		VARCHAR(25),
+  Rigid			VARCHAR(25),
+  Stanley		VARCHAR(25),
+  Hilt			VARCHAR(25),
+  Hitachi		VARCHAR(25),
+  Husky_and_Bostitch	VARCHAR(25))
